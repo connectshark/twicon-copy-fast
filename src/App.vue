@@ -16,11 +16,8 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: 'openhuninn', 'Noto Sans TC', sans-serif;
+  font-family: 'Roboto Mono', 'Noto Sans TC', sans-serif;
   text-align: center;
-}
-.title{
-  font-size: 30px;
-  line-height: 1.9;
+  min-height: 100vh;
 }
 </style>
