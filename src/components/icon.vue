@@ -19,12 +19,11 @@ export default {
       type: Number
     }
   },
-  emits: ['activeNumber'],
+  emits: ['update:activeNumber'],
   setup (props, { emit }) {
     const copy = () => {
       clipboard(`<i>${props.icon}</i>`)
-      console.log('成功')
-      emit('activeNumber', props.index)
+      emit('update:activeNumber', props.index)
     }
     return {
       name: props.icon.slice(7),
@@ -36,13 +35,12 @@ export default {
 
 <style lang="scss" scoped>
 .icon{
-  line-height: 1;
   border-radius: 20px;
   width: 150px;
   padding: 20px 0;
   margin-bottom: 20px;
   box-shadow: 0 0 0 1px #00000033;
-  transition: box-shadow .2s;
+  transition: box-shadow .2s, background .2s, color .2s;
   cursor: pointer;
   &:hover{
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
