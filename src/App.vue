@@ -1,5 +1,4 @@
 <template>
-  <h1 class="title">{{title}}</h1>
   <router-view></router-view>
 </template>
 
@@ -7,7 +6,6 @@
 export default {
   setup () {
     return {
-      title: 'Hello'
     }
   }
 }
@@ -19,5 +17,6 @@ export default {
   font-family: 'Roboto Mono', 'Noto Sans TC', sans-serif;
   text-align: center;
   min-height: 100vh;
+  line-height: 1;
 }
 </style>
