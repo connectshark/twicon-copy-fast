@@ -34,11 +34,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/color.scss';
 .icon{
   border-radius: 20px;
-  width: 150px;
   padding: 20px 0;
-  margin-bottom: 20px;
   box-shadow: 0 0 0 1px #00000033;
   transition: box-shadow .2s, background .2s, color .2s;
   cursor: pointer;
@@ -57,7 +56,7 @@ export default {
   }
 }
 .active{
-  background-color: #065F46;
+  background-color: $main;
   color: #fff;
 }
 </style>

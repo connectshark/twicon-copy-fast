@@ -1,9 +1,17 @@
 <template>
+  <Banner/>
+  <LangBar/>
   <router-view></router-view>
 </template>
 
 <script>
+import Banner from './components/banner.vue'
+import LangBar from './components/langBar.vue'
 export default {
+  components: {
+    Banner,
+    LangBar
+  },
   setup () {
     return {
     }

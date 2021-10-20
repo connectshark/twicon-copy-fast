@@ -98,5 +98,8 @@
   "l-post":"台灣郵政",
   "l-taiwan-rw":"台灣鉄道",
   "l-taipei-mrt":"台北MRT",
-  "l-kaoxiong-mrt": "高雄MRT"
+  "l-kaoxiong-mrt": "高雄MRT",
+  "tw": "中文",
+  "jp": "日本",
+  "en": "English"
 }

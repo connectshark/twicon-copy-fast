@@ -98,5 +98,8 @@
   "l-post":"Post",
   "l-taiwan-rw":"Taiwan Railways",
   "l-taipei-mrt":"Taipei MRT",
-  "l-kaoxiong-mrt": "Kaoxiong MRT"
+  "l-kaoxiong-mrt": "Kaoxiong MRT",
+  "tw": "中文",
+  "jp": "日本",
+  "en": "English"
 }
